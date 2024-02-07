@@ -1,0 +1,279 @@
+{
+    "basic_info": {
+        "description_header": "Halo",
+        "description": "Saya Rifki Fajar Ramadhani. Saya memiliki pengalaman profesional dalam pengembangan perangkat lunak sekitar 3 tahun. Saat ini saya sedang bekerja dengan teknologi PHP/Laravel, tetapi kemampuan saya tidak terbatas pada teknologi itu. Akhir-akhir ini saya belajar tentang pemrograman JavaScript, termasuk teknologi Front-End (ReactJS) dan Teknologi Back-End (NodeJS).",
+        "section_name": {
+            "about": "Tentang saya",
+            "projects": "Proyek",
+            "skills": "Kemampuan",
+            "experience": "Pengalaman"
+        }
+    },
+    "projects": [
+        {
+            "title": "Bonsainity",
+            "startDate": "2018",
+            "description": "Sebuah proyek ketika saya sedang mengerjakan tugas akhir saya untuk kuliah. Sebuah wadah bagi komunitas bonsai di Batu, Malang untuk menuangkan pemikirannya dalam sebuah forum, juga dapat berbisnis dengan membeli/menjual bonsainya.",
+            "images": [
+                "images/portfolio/bonsainity/1.PNG",
+                "images/portfolio/bonsainity/2.PNG",
+                "images/portfolio/bonsainity/3.PNG"
+            ],
+            "technologies": [
+                {
+                    "class": "devicon-php-plain",
+                    "name": "PHP"
+                },
+                {
+                    "class": "devicon-laravel-plain",
+                    "name": "Laravel"
+                },
+                {
+                    "class": "devicon-mysql-plain",
+                    "name": "MySQL"
+                },
+                {
+                    "class": "devicon-html5-plain",
+                    "name": "HTML5"
+                },
+                {
+                    "class": "devicon-css3-plain",
+                    "name": "CSS3"
+                },
+                {
+                    "class": "devicon-bootstrap-plain",
+                    "name": "Bootstrap"
+                }
+            ]
+        },
+        {
+            "title": "Lembah Indah",
+            "startDate": "2019",
+            "description": "Proyek freelance untuk objek wisata yang berlokasi di Malang. Proyek ini untuk membantu klien dalam menjalankan bisnis perjalanan dan penginapan yang mereka kelola. Fitur utama dalam proyek ini antara lain reservasi penginapan dan pembelian tiket secara online.",
+            "images": [
+                "images/portfolio/lembah-indah/1.png",
+                "images/portfolio/lembah-indah/2.png",
+                "images/portfolio/lembah-indah/3.png"
+            ],
+            "technologies": [
+                {
+                    "class": "devicon-php-plain",
+                    "name": "PHP"
+                },
+                {
+                    "class": "devicon-laravel-plain",
+                    "name": "Laravel"
+                },
+                {
+                    "class": "devicon-mysql-plain",
+                    "name": "MySQL"
+                },
+                {
+                    "class": "devicon-html5-plain",
+                    "name": "HTML5"
+                },
+                {
+                    "class": "devicon-css3-plain",
+                    "name": "CSS3"
+                },
+                {
+                    "class": "devicon-bootstrap-plain",
+                    "name": "Bootstrap"
+                }
+            ]
+        },
+        {
+            "title": "Museum Macan",
+            "startDate": "2021",
+            "description": "Ini adalah aplikasi untuk membantu klien dalam melakukan reservasi dan membeli tiket untuk memasuki museum mereka. Fitur utama dalam aplikasi ini adalah pemesanan dan pembayaran tiket menggunakan payment gateway untuk memudahkan pengolahan data yang dikelolanya.",
+            "images": [
+                "images/portfolio/museum-macan/1.PNG",
+                "images/portfolio/museum-macan/2.PNG",
+                "images/portfolio/museum-macan/3.PNG",
+                "images/portfolio/museum-macan/4.PNG"
+            ],
+            "technologies": [
+                {
+                    "class": "devicon-php-plain",
+                    "name": "PHP"
+                },
+                {
+                    "class": "devicon-laravel-plain",
+                    "name": "Laravel"
+                },
+                {
+                    "class": "devicon-mysql-plain",
+                    "name": "MySQL"
+                },
+                {
+                    "class": "devicon-html5-plain",
+                    "name": "HTML5"
+                },
+                {
+                    "class": "devicon-css3-plain",
+                    "name": "CSS3"
+                },
+                {
+                    "class": "devicon-bootstrap-plain",
+                    "name": "Bootstrap"
+                }
+            ]
+        },
+        {
+            "title": "CJDW",
+            "startDate": "2021",
+            "description": "Ini adalah aplikasi untuk membantu perusahaan Jaringan CJDW dalam mengatur proses bisnis yang ada, yaitu membeli dan menjual produknya kepada anggota, termasuk pendaftaran dan pengelolaan anggota yang dimilikinya, termasuk pembayaran online menggunakan payment gateway.",
+            "images": [
+                "images/portfolio/cjdw/1.PNG",
+                "images/portfolio/cjdw/2.PNG",
+                "images/portfolio/cjdw/3.PNG",
+                "images/portfolio/cjdw/4.PNG"
+            ],
+            "technologies": [
+                {
+                    "class": "devicon-php-plain",
+                    "name": "PHP"
+                },
+                {
+                    "class": "devicon-laravel-plain",
+                    "name": "Laravel"
+                },
+                {
+                    "class": "devicon-mysql-plain",
+                    "name": "MySQL"
+                },
+                {
+                    "class": "devicon-html5-plain",
+                    "name": "HTML5"
+                },
+                {
+                    "class": "devicon-css3-plain",
+                    "name": "CSS3"
+                },
+                {
+                    "class": "devicon-bootstrap-plain",
+                    "name": "Bootstrap"
+                }
+            ]
+        },
+        {
+            "title": "Bootcamp App",
+            "startDate": "2024",
+            "description": "Ini adalah aplikasi untuk mendaftarkan bootcamp coding. Dibangun dengan Laravel 10 dan menggunakan OAuth untuk metode login. Fitur utama seperti memesan dan membayar bootcamp dipilih oleh pengguna, dan dapat disetujui oleh admin untuk pembayarannya.",
+            "images": [
+                "images/portfolio/bootcamp/1.PNG",
+                "images/portfolio/bootcamp/2.PNG",
+                "images/portfolio/bootcamp/3.PNG",
+                "images/portfolio/bootcamp/4.PNG",
+                "images/portfolio/bootcamp/5.PNG"
+            ],
+            "technologies": [
+                {
+                    "class": "devicon-php-plain",
+                    "name": "PHP"
+                },
+                {
+                    "class": "devicon-laravel-plain",
+                    "name": "Laravel"
+                },
+                {
+                    "class": "devicon-mysql-plain",
+                    "name": "MySQL"
+                },
+                {
+                    "class": "devicon-html5-plain",
+                    "name": "HTML5"
+                },
+                {
+                    "class": "devicon-css3-plain",
+                    "name": "CSS3"
+                },
+                {
+                    "class": "devicon-bootstrap-plain",
+                    "name": "Bootstrap"
+                }
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "company": "AutoWealth SG",
+            "title": "Web Developer",
+            "years": "Januari 2022 - Februari 2024",
+            "mainTech": [
+                "PHP Native"
+            ],
+            "icon": "php",
+            "technologies": [
+                "PHP",
+                "MySQL",
+                "REST API",
+                "JavaScript",
+                "JQuery",
+                "HTML",
+                "CSS",
+                "Bootstrap",
+                "SCSS"
+            ]
+        },
+        {
+            "company": "Genesys Integrated Indonesia",
+            "title": "Web Developer",
+            "years": "Oktober 2020 - November 2021",
+            "mainTech": [
+                "PHP / Laravel"
+            ],
+            "icon": "laravel",
+            "technologies": [
+                "Laravel",
+                "PHP",
+                "MySQL",
+                "SQL Server",
+                "REST API",
+                "JavaScript",
+                "JQuery",
+                "HTML",
+                "CSS",
+                "Bootstrap",
+                "Vue JS"
+            ]
+        },
+        {
+            "company": "Lembah Indah Malang",
+            "title": "Freelance Web Developer",
+            "years": "Agustus 2020 - November 2020",
+            "mainTech": [
+                "PHP / Laravel"
+            ],
+            "icon": "laravel",
+            "technologies": [
+                "Laravel",
+                "PHP",
+                "MySQL",
+                "JavaScript",
+                "JQuery",
+                "HTML",
+                "CSS",
+                "Bootstrap"
+            ]
+        },
+        {
+            "company": "Brawijaya University Hospital",
+            "title": "Software Engineer Intern",
+            "years": "Juli 2018 - September 2018",
+            "mainTech": [
+                "PHP / Laravel"
+            ],
+            "icon": "laravel",
+            "technologies": [
+                "Laravel",
+                "PHP",
+                "MySQL",
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "Bootstrap"
+            ]
+        }
+    ]
+}
