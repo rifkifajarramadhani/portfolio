@@ -1,0 +1,76 @@
+{
+    "basic_info": {
+        "name": "Rifki Fajar Ramadhani",
+        "titles": [
+            "Web Developer",
+            "Back-End Developer"
+        ],
+        "social": [
+            {
+                "name": "github",
+                "url": "https://github.com/rifkifajarramadhani",
+                "class": "fab fa-github"
+            },
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/rifki-fajar-ramadhani-6491191b4/",
+                "class": "fab fa-linkedin"
+            }
+        ],
+        "image": "myProfile.jpg"
+    },
+    "skills": {
+        "icons": [
+            {
+                "name": "PHP",
+                "class": "devicon-php-plain",
+                "level": "65"
+            },
+            {
+                "name": "Laravel",
+                "class": "devicon-laravel-plain",
+                "level": "65"
+            },
+            {
+                "name": "NodeJS",
+                "class": "devicon-nodejs-plain",
+                "level": "65"
+            },
+            {
+                "name": "MySql",
+                "class": "devicon-mysql-plain",
+                "level": "60"
+            },
+            {
+                "name": "SQL Server",
+                "class": "devicon-microsoftsqlserver-plain",
+                "level": "60"
+            },
+            {
+                "name": "HTML 5",
+                "class": "devicon-html5-plain",
+                "level": "95"
+            },
+            {
+                "name": "CSS 3",
+                "class": "devicon-css3-plain",
+                "level": "95"
+            },
+            {
+                "name": "JavaScript",
+                "class": "devicon-javascript-plain",
+                "level": "70"
+            },
+            {
+                "name": "JQuery",
+                "class": "devicon-jquery-plain",
+                "level": "70"
+            },
+            {
+                "name": "Bootstrap",
+                "class": "devicon-bootstrap-plain",
+                "level": "85"
+            }
+        ]
+    }
+}
