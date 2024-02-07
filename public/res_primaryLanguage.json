@@ -161,11 +161,11 @@
             "startDate": "2024",
             "description": "This is an app to register a coding bootcamp. Built with Laravel 10 and using OAuth for login method. The main feature such as book and pay the bootcamp selected by user, and can approved by admin for the payment.",
             "images": [
-                "images/portfolio/bootcamp/1.PNG",
-                "images/portfolio/bootcamp/2.PNG",
-                "images/portfolio/bootcamp/3.PNG",
-                "images/portfolio/bootcamp/4.PNG",
-                "images/portfolio/bootcamp/5.PNG"
+                "images/portfolio/bootcamp/1.png",
+                "images/portfolio/bootcamp/2.png",
+                "images/portfolio/bootcamp/3.png",
+                "images/portfolio/bootcamp/4.png",
+                "images/portfolio/bootcamp/5.png"
             ],
             "technologies": [
                 {
