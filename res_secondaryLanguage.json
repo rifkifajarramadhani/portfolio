@@ -161,11 +161,11 @@
             "startDate": "2024",
             "description": "Ini adalah aplikasi untuk mendaftarkan bootcamp coding. Dibangun dengan Laravel 10 dan menggunakan OAuth untuk metode login. Fitur utama seperti memesan dan membayar bootcamp dipilih oleh pengguna, dan dapat disetujui oleh admin untuk pembayarannya.",
             "images": [
-                "images/portfolio/bootcamp/1.PNG",
-                "images/portfolio/bootcamp/2.PNG",
-                "images/portfolio/bootcamp/3.PNG",
-                "images/portfolio/bootcamp/4.PNG",
-                "images/portfolio/bootcamp/5.PNG"
+                "images/portfolio/bootcamp/1.png",
+                "images/portfolio/bootcamp/2.png",
+                "images/portfolio/bootcamp/3.png",
+                "images/portfolio/bootcamp/4.png",
+                "images/portfolio/bootcamp/5.png"
             ],
             "technologies": [
                 {
