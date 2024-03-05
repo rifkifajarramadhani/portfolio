@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
 import laravel from "@iconify/icons-logos/laravel";
-import php from "@iconify/icons-logos/php";
+import js from "@iconify/icons-logos/javascript";
 import nodejs from "@iconify/icons-logos/nodejs";
+import aws from "@iconify/icons-logos/aws";
 
 class About extends Component {
 	render() {
@@ -30,15 +31,19 @@ class About extends Component {
 									alt="Avatar placeholder"
 								/>
 								<Icon
-									icon={laravel}
-									style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-								/>
-								<Icon
-									icon={php}
-									style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-								/>
-								<Icon
 									icon={nodejs}
+									style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+								/>
+								<Icon
+									icon={js}
+									style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+								/>
+								<Icon
+									icon={aws}
+									style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+								/>
+								<Icon
+									icon={laravel}
 									style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
 								/>
 								</span>
