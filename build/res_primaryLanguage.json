@@ -1,7 +1,7 @@
 {
     "basic_info": {
         "description_header": "Hi",
-        "description": "I'm Rifki Fajar Ramadhani. I have a professional experience in software development in about 3 years. Currently I'm working with PHP/Laravel tech stack, but my ability is not limited to that technologies. Lately, I'm learning about JavaScript programming, including Front-End technologies (ReactJS) and Back-End Technologies (NodeJS).",
+        "description": "I'm Rifki Fajar Ramadhani. I have a professional experience in software development in about 3 years. Passionate about crafting scalable and efficient back-end solutions using Node.js. With a strong foundation in software engineering principles and extensive experience in building robust server-side applications, I specialize in architecting and implementing high-performance APIs. My goal is to leverage my expertise to drive innovation and deliver impactful solutions that exceed client expectations.",
         "section_name": {
             "about": "About me",
             "projects": "Projects",
@@ -201,14 +201,16 @@
             "title": "Web Developer",
             "years": "January 2022 - February 2024",
             "mainTech": [
-                "PHP Native"
+                "NodeJS"
             ],
-            "icon": "php",
+            "icon": "js",
             "technologies": [
+                "JavaScript",
+                "NodeJS",
+                "ExpressJS",
                 "PHP",
                 "MySQL",
                 "REST API",
-                "JavaScript",
                 "JQuery",
                 "HTML",
                 "CSS",

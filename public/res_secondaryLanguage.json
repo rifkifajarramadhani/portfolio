@@ -1,7 +1,7 @@
 {
     "basic_info": {
         "description_header": "Halo",
-        "description": "Saya Rifki Fajar Ramadhani. Saya memiliki pengalaman profesional dalam pengembangan perangkat lunak sekitar 3 tahun. Saat ini saya sedang bekerja dengan teknologi PHP/Laravel, tetapi kemampuan saya tidak terbatas pada teknologi itu. Akhir-akhir ini saya belajar tentang pemrograman JavaScript, termasuk teknologi Front-End (ReactJS) dan Teknologi Back-End (NodeJS).",
+        "description": "Saya Rifki Fajar Ramadhani. Saya memiliki pengalaman profesional dalam pengembangan perangkat lunak sekitar 3 tahun. Bersemangat dalam menciptakan solusi back-end yang skalabel dan efisien menggunakan Node.js. Dengan dasar yang kuat dalam prinsip-prinsip rekayasa perangkat lunak dan pengalaman luas dalam membangun aplikasi sisi server yang kuat, saya berspesialisasi dalam merancang dan mengimplementasikan API berkinerja tinggi. Tujuan saya adalah memanfaatkan keahlian saya untuk mendorong inovasi dan memberikan solusi berdampak yang melebihi harapan klien.",
         "section_name": {
             "about": "Tentang saya",
             "projects": "Proyek",
@@ -201,14 +201,16 @@
             "title": "Web Developer",
             "years": "Januari 2022 - Februari 2024",
             "mainTech": [
-                "PHP Native"
+                "NodeJS"
             ],
-            "icon": "php",
+            "icon": "js",
             "technologies": [
+                "JavaScript",
+                "NodeJS",
+                "ExpressJS",
                 "PHP",
                 "MySQL",
                 "REST API",
-                "JavaScript",
                 "JQuery",
                 "HTML",
                 "CSS",
