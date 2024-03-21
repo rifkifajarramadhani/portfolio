@@ -2,8 +2,8 @@
     "basic_info": {
         "name": "Rifki Fajar Ramadhani",
         "titles": [
-            "Web Developer",
-            "Back-End Developer"
+            "Back-End Developer",
+            "Web Developer"
         ],
         "social": [
             {
@@ -13,7 +13,7 @@
             },
             {
                 "name": "linkedin",
-                "url": "https://www.linkedin.com/in/rifki-fajar-ramadhani-6491191b4/",
+                "url": "https://www.linkedin.com/in/rifkifajarramadhani/",
                 "class": "fab fa-linkedin"
             }
         ],
@@ -25,6 +25,11 @@
                 "name": "NodeJS",
                 "class": "devicon-nodejs-plain",
                 "level": "65"
+            },
+            {
+                "name": "NestJS",
+                "class": "devicon-nestjs-original",
+                "level": "70"
             },
             {
                 "name": "ExpressJS",
@@ -39,6 +44,11 @@
             {
                 "name": "JavaScript",
                 "class": "devicon-javascript-plain",
+                "level": "70"
+            },
+            {
+                "name": "TypeScript",
+                "class": "devicon-typescript-plain",
                 "level": "70"
             },
             {
@@ -77,6 +87,11 @@
                 "level": "60"
             },
             {
+                "name": "MongoDB",
+                "class": "devicon-mongodb-plain",
+                "level": "60"
+            },
+            {
                 "name": "Redis",
                 "class": "devicon-redis-plain",
                 "level": "60"
@@ -84,6 +99,11 @@
             {
                 "name": "RabbitMQ",
                 "class": "devicon-rabbitmq-original",
+                "level": "60"
+            },
+            {
+                "name": "Kafka",
+                "class": "devicon-apachekafka-original",
                 "level": "60"
             },
             {
@@ -95,26 +115,6 @@
                 "name": "Jira",
                 "class": "devicon-jira-plain",
                 "level": "60"
-            },
-            {
-                "name": "HTML 5",
-                "class": "devicon-html5-plain",
-                "level": "95"
-            },
-            {
-                "name": "CSS 3",
-                "class": "devicon-css3-plain",
-                "level": "95"
-            },
-            {
-                "name": "JQuery",
-                "class": "devicon-jquery-plain",
-                "level": "70"
-            },
-            {
-                "name": "Bootstrap",
-                "class": "devicon-bootstrap-plain",
-                "level": "85"
             }
         ]
     }
