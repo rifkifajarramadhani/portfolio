@@ -219,8 +219,24 @@
             ]
         },
         {
+            "company": "Northbit.id",
+            "title": "Back End Developer",
+            "years": "Mar 2023 - Current",
+            "mainTech": [
+                "NestJS"
+            ],
+            "icon": "js",
+            "technologies": [
+                "TypeScript",
+                "NodeJS",
+                "NestJS",
+                "PostgreSQL",
+                "REST API"
+            ]
+        },
+        {
             "company": "Genesys Integrated Indonesia",
-            "title": "Web Developer",
+            "title": "Back End Web Developer",
             "years": "Oktober 2020 - November 2021",
             "mainTech": [
                 "PHP / Laravel"
