@@ -22,6 +22,11 @@
     "skills": {
         "icons": [
             {
+                "name": "GO",
+                "class": "devicon-go-original-wordmark",
+                "level": "65"
+            },
+            {
                 "name": "NodeJS",
                 "class": "devicon-nodejs-plain",
                 "level": "65"
@@ -34,11 +39,6 @@
             {
                 "name": "ExpressJS",
                 "class": "devicon-express-original",
-                "level": "70"
-            },
-            {
-                "name": "HapiJS",
-                "class": "devicon-fastapi-plain",
                 "level": "70"
             },
             {
