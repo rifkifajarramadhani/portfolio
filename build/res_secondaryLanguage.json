@@ -1,7 +1,7 @@
 {
     "basic_info": {
         "description_header": "Halo",
-        "description": "Saya Rifki Fajar Ramadhani. Saya memiliki pengalaman profesional dalam pengembangan perangkat lunak sekitar 3 tahun. Bersemangat dalam menciptakan solusi back-end yang skalabel dan efisien menggunakan Node.js. Dengan dasar yang kuat dalam prinsip-prinsip rekayasa perangkat lunak dan pengalaman luas dalam membangun aplikasi sisi server yang kuat, saya berspesialisasi dalam merancang dan mengimplementasikan API berkinerja tinggi. Tujuan saya adalah memanfaatkan keahlian saya untuk mendorong inovasi dan memberikan solusi berdampak yang melebihi harapan klien.",
+        "description": "Saya Rifki Fajar Ramadhani. Saya memiliki pengalaman profesional dalam pengembangan perangkat lunak sekitar 3 tahun. Bersemangat dalam menciptakan solusi back-end yang skalabel dan efisien, dan memiliki keahlian dengan Go-lang. Selain Go-lang, saya juga memiliki pengalaman dalam menggunakan NodeJS serta PHP. Dengan dasar yang kuat dalam prinsip-prinsip rekayasa perangkat lunak dan pengalaman luas dalam membangun aplikasi sisi server yang kuat, saya berspesialisasi dalam merancang dan mengimplementasikan API berkinerja tinggi. Tujuan saya adalah memanfaatkan keahlian saya untuk mendorong inovasi dan memberikan solusi berdampak yang melebihi harapan klien.",
         "section_name": {
             "about": "Tentang saya",
             "projects": "Proyek",
@@ -153,6 +153,35 @@
                 {
                     "class": "devicon-bootstrap-plain",
                     "name": "Bootstrap"
+                }
+            ]
+        },
+        {
+            "title": "Balisimcard",
+            "startDate": "2023",
+            "description": "Aplikasi ini untuk membantu turis untuk membeli sim card telkomsel untuk lilburan mereka.",
+            "images": [
+                "images/portfolio/balisimcard/1.png",
+                "images/portfolio/balisimcard/2.png",
+                "images/portfolio/balisimcard/3.png",
+                "images/portfolio/balisimcard/4.png"
+            ],
+            "technologies": [
+                {
+                    "class": "devicon-go-original-wordmark",
+                    "name": "Golang"
+                },
+                {
+                    "class": "devicon-postgresql-plain",
+                    "name": "PostgreSQL"
+                },
+                {
+                    "class": "devicon-react-plain",
+                    "name": "ReactJS"
+                },
+                {
+                    "class": "devicon-css3-plain",
+                    "name": "CSS3"
                 }
             ]
         },

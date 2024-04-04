@@ -1,7 +1,7 @@
 {
     "basic_info": {
         "description_header": "Hi",
-        "description": "I'm Rifki Fajar Ramadhani. I have a professional experience in software development in about 3 years. Passionate about crafting scalable and efficient back-end solutions using Node.js. With a strong foundation in software engineering principles and extensive experience in building robust server-side applications, I specialize in architecting and implementing high-performance APIs. My goal is to leverage my expertise to drive innovation and deliver impactful solutions that exceed client expectations.",
+        "description": "I'm Rifki Fajar Ramadhani. I have a professional experience in software development in about 3 years. Passionate about crafting scalable and efficient back-end solutions, and have expertised in Go-lang. Besides Go-lang, I have experience in NodeJS (and its ecosystem) and PHP also. With a strong foundation in software engineering principles and extensive experience in building robust server-side applications, I specialize in architecting and implementing high-performance APIs. My goal is to leverage my expertise to drive innovation and deliver impactful solutions that exceed client expectations.",
         "section_name": {
             "about": "About me",
             "projects": "Projects",
@@ -157,6 +157,35 @@
             ]
         },
         {
+            "title": "Balisimcard",
+            "startDate": "2023",
+            "description": "This is an app to assist tourist that will go to Bali to purchase simcard for them.",
+            "images": [
+                "images/portfolio/balisimcard/1.png",
+                "images/portfolio/balisimcard/2.png",
+                "images/portfolio/balisimcard/3.png",
+                "images/portfolio/balisimcard/4.png"
+            ],
+            "technologies": [
+                {
+                    "class": "devicon-go-original-wordmark",
+                    "name": "Golang"
+                },
+                {
+                    "class": "devicon-postgresql-plain",
+                    "name": "PostgreSQL"
+                },
+                {
+                    "class": "devicon-react-plain",
+                    "name": "ReactJS"
+                },
+                {
+                    "class": "devicon-css3-plain",
+                    "name": "CSS3"
+                }
+            ]
+        },
+        {
             "title": "Bootcamp App",
             "startDate": "2024",
             "description": "This is an app to register a coding bootcamp. Built with Laravel 10 and using OAuth for login method. The main feature such as book and pay the bootcamp selected by user, and can approved by admin for the payment.",
@@ -223,13 +252,13 @@
             "title": "Back End Developer",
             "years": "Mar 2023 - Current",
             "mainTech": [
-                "NestJS"
+                "GO"
             ],
-            "icon": "js",
+            "icon": "golang",
             "technologies": [
-                "TypeScript",
-                "NodeJS",
-                "NestJS",
+                "Go-lang",
+                "Go-fiber",
+                "Docker",
                 "PostgreSQL",
                 "REST API"
             ]
