@@ -8,7 +8,7 @@ export default function About() {
 
       <div className="mb-10 text-base sm:text-lg">
         <p>
-          I'm a passionate full-stack web developer with 4 years of experience in crafting innovative and efficient web applications. My expertise spans across a wide range of technologies, including TypeScript, Golang, PHP, React, Vue, and Tailwind CSS. I possess a strong foundation in both back-end and front-end development, allowing me to deliver comprehensive solutions that meet the highest standards of quality and performance.
+          I&apos;m a passionate full-stack web developer with 4 years of experience in crafting innovative and efficient web applications. My expertise spans across a wide range of technologies, including TypeScript, Golang, PHP, React, Vue, and Tailwind CSS. I possess a strong foundation in both back-end and front-end development, allowing me to deliver comprehensive solutions that meet the highest standards of quality and performance.
         </p>
 
         <br />
@@ -20,7 +20,7 @@ export default function About() {
         <br />
 
         <p>
-          Let's collaborate to build remarkable web applications that exceed your expectations.
+          Let&apos;s collaborate to build remarkable web applications that exceed your expectations.
         </p>
       </div>
 
