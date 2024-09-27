@@ -40,7 +40,7 @@ export default function Work() {
                     Visit
                   </a>
                   <a
-                    className={`border-border dark:border-darkBorder dark:bg-secondaryBlack dark:text-darkText shadow-light dark:shadow-dark cursor-pointer rounded-base border-2 bg-white px-4 py-2 text-center text-sm font-base transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none sm:text-base dark:hover:shadow-none ${project.repoUrl === '#' ? 'opacity-50 cursor-not-allowed' : ''}`}
+                    className={`border-border dark:border-darkBorder dark:bg-secondaryBlack dark:text-darkText shadow-light dark:shadow-dark cursor-pointer rounded-base border-2 bg-white px-4 py-2 text-center text-sm font-base transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none sm:text-base dark:hover:shadow-none ${project.repoUrl === '#' ? 'opacity-50 pointer-events-none' : ''}`}
                     href={project.repoUrl}
                     target="_blank"
                   >
