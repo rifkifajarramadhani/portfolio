@@ -1,0 +1,22 @@
+---
+import PAST_ROLES from '@/data/experience'
+---
+
+<div class="mb-16">
+  <h2 class="mb-8 text-xl font-heading sm:text-2xl">Experience</h2>
+
+  {
+    PAST_ROLES.map((role) => (
+      <div class="mb-8">
+        <h3 class="text-lg font-heading sm:text-xl">
+          {role.role} @ {role.company}
+        </h3>
+
+        <p class="mb-4 mt-0.5 text-sm">
+          {role.startDate} - {role.endDate}
+        </p>
+        <p>{role.description}</p>
+      </div>
+    ))
+  }
+</div>

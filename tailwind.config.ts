@@ -2,28 +2,22 @@ import type { Config } from 'tailwindcss'
 import tailwindAnimate from 'tailwindcss-animate'
 
 const config: Config = {
-  content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
+  content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
   theme: {
     extend: {
       colors: {
         main: '#88aaee',
-        mainAccent: '#4d80e6', // not needed for shadcn components
+        mainAccent: '#4d80e6',
         overlay: 'rgba(0,0,0,0.8)',
 
-        // light mode
         bg: '#dfe5f2',
         text: '#000',
         border: '#000',
 
-        // dark mode
         darkBg: '#272933',
         darkText: '#eeefe9',
         darkBorder: '#000',
-        secondaryBlack: '#1b1b1b', // opposite of plain white, not used pitch black because borders and box-shadows are that color 
+        secondaryBlack: '#1b1b1b',
       },
       borderRadius: {
         base: '5px',
