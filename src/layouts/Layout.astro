@@ -1,0 +1,85 @@
+---
+import '../styles/globals.css'
+import Nav from '@/components/Nav.astro'
+import { ClientRouter } from 'astro:transitions'
+import { withBase } from '@/lib/with-base'
+import { defaultDescription, defaultOgImage, defaultTitle, shortName } from '@/lib/site'
+
+interface Props {
+  title?: string
+  description?: string
+  image?: string
+  noindex?: boolean
+}
+
+const {
+  title = defaultTitle,
+  description = defaultDescription,
+  image,
+  noindex = false,
+} = Astro.props
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site)
+const ogImage = new URL(image ?? defaultOgImage, Astro.site)
+---
+
+<!doctype html>
+<html lang="en" transition:animate="fade">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href={withBase('favicon.svg')} />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex" />}
+    <link rel="canonical" href={canonicalURL} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={shortName} />
+    <meta property="og:image" content={ogImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script is:inline>
+      function getTheme() {
+        return (
+          localStorage.getItem('theme') ??
+          (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+        )
+      }
+
+      function applyTheme(doc) {
+        doc.documentElement.classList.toggle('dark', getTheme() === 'dark')
+      }
+
+      applyTheme(document)
+
+      document.addEventListener('astro:before-swap', (event) => {
+        applyTheme(event.newDocument)
+      })
+
+      document.addEventListener('astro:after-swap', () => {
+        applyTheme(document)
+      })
+    </script>
+    <ClientRouter />
+  </head>
+  <body class="font-[Montserrat,sans-serif]">
+    <Nav />
+    <div
+      class="text-text dark:text-darkText mx-auto w-[750px] max-w-full px-5 pb-10 pt-28"
+    >
+      <slot />
+    </div>
+  </body>
+</html>

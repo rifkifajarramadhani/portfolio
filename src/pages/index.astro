@@ -1,0 +1,46 @@
+---
+import Layout from '@/layouts/Layout.astro'
+import Links from '@/components/Links'
+import { name, jobTitle, pageSeo, siteUrl, socialLinks } from '@/lib/site'
+import { withBase } from '@/lib/with-base'
+
+const { title, description } = pageSeo.home
+const sitePageUrl = new URL(withBase(), siteUrl).href
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Person',
+      name,
+      jobTitle,
+      url: sitePageUrl,
+      sameAs: [socialLinks.github, socialLinks.linkedin],
+    },
+    {
+      '@type': 'WebSite',
+      name,
+      url: sitePageUrl,
+    },
+  ],
+}
+---
+
+<Layout title={title} description={description}>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  <div class="font-base">
+    <h1 class="text-2xl font-heading sm:text-4xl">Rifki Fajar Ramadhani</h1>
+    <p class="mt-2 text-lg sm:text-xl">Full-Stack Engineer</p>
+    <div class="mt-8 text-base sm:text-lg">
+      <p>
+        Hi, my name is Rifki, software engineer based in Indonesia. I'm a
+        passionate full-stack web developer with 4 years of experience in
+        crafting innovative and efficient web applications. My expertise spans
+        across a wide range of technologies, including TypeScript, Golang, PHP,
+        React, Vue, and Tailwind CSS.
+      </p>
+    </div>
+
+    <Links />
+  </div>
+</Layout>

@@ -1,62 +1,67 @@
-<img src="public/preview.png" />
-
 # Portfolio
 
-Portfolio is a neobrutalism-styled nextjs tailwind template for portfolios.
+A neobrutalism-styled Astro + Tailwind portfolio.
 
 ## Get started
 
-[Create a new repo](https://github.com/neobrutalism-templates/portfolio/generate) from this template.
+This project uses [Bun](https://bun.sh) as its JavaScript runtime and package manager.
 
 ### Installation
 
-This template uses `pnpm` package manager so make sure you have it installed.
-
-To install all dependencies run:
-
 ```bash
-pnpm i
+bun install
 ```
 
-To run the app locally:
+### Development
 
 ```bash
-pnpm run dev
+bun dev
 ```
 
-### Config
+### Build
 
-- Inside `layout.tsx` update the metadata
-- Inside `page.tsx` update the content
-- Update the `favicon.ico`
+```bash
+bun run build
+```
 
-### Content config
+### Preview production build
 
-#### Links on the home page
+```bash
+bun preview
+```
 
-To update the links on the home page go to `src/components/links.tsx` and inside `links` array add or remove objects. Each object has 2 properties, `icon`, and `href`. `href` is self-explanatory, and inside `icon` you'll put an icon imported from `@icons-pack/react-simple-icons`. Visit [simpleicons.org](https://simpleicons.org/) to see all the icons. Import them by adding `Si` prefix to their name as I imported them in `links` component.
+The site is configured for GitHub Pages with `base: '/portfolio'`. Preview uses the same base path.
 
-#### Updating the rest of the content
+## Config
 
-Inside `data` folder you have the rest of the content you can edit.
+- Update site metadata in [`src/layouts/Layout.astro`](src/layouts/Layout.astro)
+- Update home page content in [`src/pages/index.astro`](src/pages/index.astro)
+- Update the favicon in `public/`
 
-#### Updating the `previewImage` in `projects.ts`
+## Content config
 
-Make sure to put `/` + name of the picture that's inside public folder. e.g. you have a `my-project.png` picture inside `public` folder, you'll type:
+### Links on the home page
+
+Edit [`src/components/Links.tsx`](src/components/Links.tsx). Each link has an `icon` (from `@icons-pack/react-simple-icons`) and `href`. Visit [simpleicons.org](https://simpleicons.org/) for available icons.
+
+### Updating the rest of the content
+
+Edit files in [`src/data/`](src/data/).
+
+### Project preview images
+
+Place images in `public/` and reference them in [`src/data/projects.ts`](src/data/projects.ts):
 
 ```ts
-previewImage: '/my-project.png'
+previewImage: 'my-project.png'
 ```
 
-##### Image aspect ratio
+Images are served with the Astro base path (`/portfolio/` on GitHub Pages).
 
-Inside `app/work/page.tsx`  `previewImage` is wrapped inside AspectRatio component. Change the `ratio` prop so it suits your needs (default preview images are 710 x 260, so I set the ratio to be `71 / 26`).
+### Skills
 
-#### Updating skills
+In [`src/data/skills.ts`](src/data/skills.ts), each object is a skill field with a `field` name and `skills` array. Each skill has a `skill` label (tooltip text) and `icon` component.
 
-I need to clarify how to edit skills since it looks confusing at first. Inside the `skills.ts` inside the `SKILLS` array, each object in the array is a field of skills (can be anything: frontend, backend, devops, design etc). Each object has a `field` prop which is the field name. Also, each object has a `skills` array where each array member has a `skill` value (used as tooltip value), and `icon` is the icon that will be displayed.
-You update them the same way you'd update links on the home page.
+## Styling
 
-### Styling
-
-To change the styling visit [styling docs](https://neobrutalism-components.vercel.app/docs/styling), and copy the desired styling to tailwind config like it's shown in the styling docs.
+To change styling, visit the [neobrutalism styling docs](https://neobrutalism-components.vercel.app/docs/styling) and copy the desired tokens into [`tailwind.config.ts`](tailwind.config.ts).
