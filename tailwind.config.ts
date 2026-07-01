@@ -6,42 +6,22 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        main: '#88aaee',
-        mainAccent: '#4d80e6',
-        overlay: 'rgba(0,0,0,0.8)',
-
-        bg: '#dfe5f2',
-        text: '#000',
-        border: '#000',
-
-        darkBg: '#272933',
-        darkText: '#eeefe9',
-        darkBorder: '#000',
-        secondaryBlack: '#1b1b1b',
+        bg: '#1a1a2e',
+        'secondary-bg': '#16213e',
+        'accent-1': '#00f5c3',
+        'accent-2': '#e94560',
+        'text-primary': '#e0e0e0',
+        'text-secondary': '#a0a0a0',
       },
-      borderRadius: {
-        base: '5px',
-      },
-      boxShadow: {
-        light: '4px 4px 0px 0px #000',
-        dark: '4px 4px 0px 0px #000',
-      },
-      translate: {
-        boxShadowX: '4px',
-        boxShadowY: '4px',
-        reverseBoxShadowX: '-4px',
-        reverseBoxShadowY: '-4px',
-      },
-      fontWeight: {
-        base: '500',
-        heading: '700',
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
+        mono: ['"JetBrains Mono"', 'monospace'],
       },
       screens: {
         w450: { raw: '(max-width: 450px)' },
       },
     },
   },
-  darkMode: 'class',
   plugins: [tailwindAnimate],
 }
 export default config

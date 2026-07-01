@@ -4,9 +4,13 @@ const PROJECTS: {
   previewImage: string
   repoUrl: string
   liveLink: string
+  featured?: boolean
+  tags?: string[]
 }[] = [
   {
     name: 'Sportsmans Warehouse',
+    featured: true,
+    tags: ['Vue', 'Node.js', 'Tailwind', 'Payment Gateway'],
     description: `This application is designed to enhance your outdoor shopping experience at Sportsman’s Warehouse. The main feature allows customers to easily browse and purchase a wide range of outdoor gear, including fishing, hunting, and camping equipment. With a secure payment gateway, you can confidently process transactions and manage your orders seamlessly. Whether you're looking for the latest gear or expert advice, our app makes it simple to gear up for your next adventure with just a few taps.`,
     liveLink: 'https://www.sportsmanswarehouse.co.za/',
     previewImage: 'sportsmans-warehouse/1.png',
@@ -14,6 +18,8 @@ const PROJECTS: {
   },
   {
     name: 'Outdoor Warehouse',
+    featured: true,
+    tags: ['Vue', 'Node.js', 'Tailwind', 'E-commerce'],
     description: `This app is designed to help customers easily shop for outdoor gear at Sportsman’s Warehouse. The main feature allows users to browse a wide selection of equipment for fishing, hunting, camping, and more. With a secure payment gateway, you can effortlessly order and pay for your items, ensuring a smooth transaction process. Whether you’re gearing up for your next adventure or seeking expert advice, our app simplifies your shopping experience, making it easier than ever to get outdoors!`,
     liveLink: 'https://www.outdoorwarehouse.co.za/',
     previewImage: 'outdoor-warehouse/1.png',
