@@ -3,6 +3,11 @@ description: "Setup Bun - Cache dependencies - Install dependencies"
 runs:
   using: "composite"
   steps:
+    - name: Setup Node (Astro 7 requires >=22.23.4)
+      uses: actions/setup-node@v4
+      with:
+        node-version-file: .node-version
+
     - name: Setup Bun
       uses: oven-sh/setup-bun@v2
       with:

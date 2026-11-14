@@ -1,10 +1,13 @@
 import { defineConfig } from 'astro/config'
 import react from '@astrojs/react'
-import tailwind from '@astrojs/tailwind'
 import sitemap from '@astrojs/sitemap'
+import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   site: 'https://rifkifajarramadhani.github.io',
   base: '/portfolio',
-  integrations: [react(), tailwind({ applyBaseStyles: false }), sitemap()],
+  integrations: [react(), sitemap()],
+  vite: {
+    plugins: [tailwindcss()],
+  },
 })

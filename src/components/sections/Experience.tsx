@@ -10,7 +10,7 @@ export default function Experience() {
       </Reveal>
 
       <div className="relative pl-8 md:pl-10">
-        <span className="absolute left-0 top-0 bottom-0 w-0.5 bg-gradient-to-b from-accent-1 via-accent-2 to-transparent opacity-30" />
+        <span className="absolute left-0 top-0 bottom-0 w-0.5 bg-linear-to-b/srgb from-accent-1 via-accent-2 to-transparent opacity-30" />
 
         <div className="flex flex-col gap-12">
           {PAST_ROLES.map((role, id) => (

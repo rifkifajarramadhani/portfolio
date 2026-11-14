@@ -1,11 +1,32 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+@import 'tw-animate-css';
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+@theme {
+  --color-bg: #1a1a2e;
+  --color-secondary-bg: #16213e;
+  --color-accent-1: #00f5c3;
+  --color-accent-2: #e94560;
+  --color-text-primary: #e0e0e0;
+  --color-text-secondary: #a0a0a0;
+
+  --font-sans: Poppins, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+@custom-variant w450 (@media (max-width: 450px));
+
+@layer base {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  /* Tailwind v3 preserved button cursor; v4 defaults to cursor: default */
+  button:not(:disabled),
+  [role='button']:not(:disabled) {
+    cursor: pointer;
+  }
 }
 
 html {

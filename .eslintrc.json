@@ -1,15 +1,24 @@
 {
+  "ignorePatterns": [
+    "dist",
+    ".astro",
+    "node_modules"
+  ],
   "extends": [
     "plugin:astro/recommended",
     "prettier"
   ],
   "overrides": [
     {
-      "files": ["*.astro"],
+      "files": [
+        "*.astro"
+      ],
       "parser": "astro-eslint-parser",
       "parserOptions": {
         "parser": "@typescript-eslint/parser",
-        "extraFileExtensions": [".astro"]
+        "extraFileExtensions": [
+          ".astro"
+        ]
       }
     }
   ]
